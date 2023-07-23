@@ -1,0 +1,16 @@
+[package]
+name = "abitracker"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+regex = "1.9.1"
+
+[dependencies.chrono]
+version = "0.4.26"
+default-features = false
+features = [
+    "std",
+    "clock",
+]
